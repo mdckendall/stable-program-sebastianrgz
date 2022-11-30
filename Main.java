@@ -28,6 +28,8 @@ class Main {
 		}while(true);
 		//Display the info here
                 //You code here!
+        for(int i=0; i < s.arrayList.size();i++){
+      System.out.println("Horse #"+(i+1) + " " + s.arrayList.get(i));
 	  }
   }
 }
